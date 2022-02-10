@@ -1,5 +1,4 @@
 '''
-
 calculate handling fee based on the firm you trade with
 '''
 import math
@@ -15,9 +14,6 @@ lot_size = int(input("Shares in one lot:"))
 lots = int(input("Lots trading: "))
 pur_price = float(input("Purchase price: "))
 purcost = lot_size * pur_price * lots
-
-
-
 
 def calhandlingfee(cost):
     brokeragefee = float(cost * 0.0025)
@@ -39,3 +35,6 @@ def calhandlingfee(cost):
     print (f"Total transaction fee: {totalhandlfee}")
 
 calhandlingfee(purcost)
+
+def priceave(pur_price, lots):
+    
