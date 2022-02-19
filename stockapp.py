@@ -2,6 +2,7 @@
 calculate handling fee based on the firm you trade with
 '''
 import math
+import numpy as np
 
 portofolio = []
 
