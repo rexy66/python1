@@ -3,6 +3,9 @@ calculate handling fee based on the firm you trade with
 '''
 import math
 
+portofolio = []
+
+
 class stock:
     def__init__(self,symbol,lotsize): 
         self.symbol = symbol
