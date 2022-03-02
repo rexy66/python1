@@ -6,9 +6,9 @@ portfolio = [
     [7,8,9]
 ]
 
-def sumColumn(m, column):
+def sumColumn(matrix, column):
     total = 0
-    for row in range(len(m)):
+    for row in range(len(matrix)):
         total += m[row][column]
     return total
 
