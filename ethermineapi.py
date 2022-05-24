@@ -21,16 +21,17 @@ def checkworkers(link):
     end_result = result[end_index]
     return end_result
 
-
 def checkdiff(user,default):
     if checkworkers(user) != default:
         diff = True
-        diff= True
+        diff = True
         displayed = False
     else:
         diff = False
+        displayed = True
 
-    
+print('running...')
+
 while True:
     checkdiff(ming,mingdefault)
     checkdiff(canus,canusdefault)
@@ -39,8 +40,7 @@ while True:
         displayed = True
         print("The number of workers for Ming is now: " + str(checkworkers(ming)))
         print("The number of workers for Canus is now: " + str(checkworkers(canus)))
-
+        
     else:
-        continue
-    
-    
+        displayed = True
+        
