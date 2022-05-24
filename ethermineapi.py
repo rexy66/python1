@@ -5,7 +5,7 @@ ming = 'https://api.ethermine.org/miner/0xe14e6353c15412C6aB825Ef91c85E7aa904802
 canus = 'https://api.ethermine.org/miner/0x874b12d3a324088A37F5C48467f74c5121106D12/currentStats'
 mingdefault=3
 canusdefault =3
-diff= True
+diff= False
 displayed = False
 
 def checkworkers(link):
@@ -30,7 +30,8 @@ def checkdiff(user,default):
         diff = False
         displayed = True
 
-print('running...')
+
+print('Running...')
 
 while True:
     checkdiff(ming,mingdefault)
@@ -43,4 +44,3 @@ while True:
         
     else:
         displayed = True
-        
