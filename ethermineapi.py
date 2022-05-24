@@ -1,8 +1,8 @@
 import requests 
 import time
 
-ming = 'https://api.ethermine.org/miner/0xe14e6353c15412C6aB825Ef91c85E7aa904802dC/currentStats'
-canus = 'https://api.ethermine.org/miner/0x874b12d3a324088A37F5C48467f74c5121106D12/currentStats'
+ming = 'https://api.ethermine.org/miner/0xee6353c15412C6aB825Ef91c85E7aa904802dC/currentStats'
+canus = 'https://api.ethermine.org/miner/0x4b12d3a324088A37F5C48467f74c5121106D12/currentStats'
 mingdefault=3
 canusdefault =3
 diff= False
